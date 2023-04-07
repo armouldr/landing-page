@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: stretch;
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    padding: 16px 64px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.text-logo {
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.header-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+li {
+    list-style: none;
+}
+.first-display {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 4px;
+    padding: 4px 24px;
+    border: none;
+    
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    
+}
+
+.image-row img {
+    border-radius: 8px;
+    border: 3px solid #3882f6;
+    object-fit: cover;
+}
+
+.gallery-image-container {
+    text-align: center;
+}
+
+.quote {
+    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 32px 256px;
+    
+
+}
+
+.quote div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.signature {
+    align-self: flex-end;
+}
+
+.gallery-image-container img {
+    flex: 1 1 auto;
+}
+
+.bottom-ad {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    padding: 25px 100px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+
+}
+.bottom-ad h3{
+    margin-bottom: 0;
+}
+
+.ad-button {
+    font-weight: bold;
+    border-color: white;
+    border-radius: 8px;
+    background-color: inherit;
+    color: inherit;
+    padding: 10px 25px;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    
+}
+
+.footer-copyright {
+    padding: 40px 0px;
+}
+
